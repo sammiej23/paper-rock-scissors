@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Waste an Hour Having Fun</title>
+<script src="js/game.js"></script>
+<script src="js/form.js"></script>
+<link rel="stylesheet" href="styles/default.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <form>
+    <p>Default play is against the computer:</p>
+    <p>Human, you are Player 1. Please make your choice:</p>
+    <div>
+      <span>
+        <label for="handChoice2"><img src="img/rock.png" /></label>
+        <input type="radio" id="handChoice2" name="hand" value="rock">
+     </span>
+      <span>
+        <label for="handChoice1"><img src="img/paper.png" /></label>
+        <input type="radio" id="handChoice1" name="hand" value="paper">
+      </span>
+     <span>
+       <label for="handChoice3"><img src="img/scissors.png" /></label>
+       <input type="radio" id="handChoice3" name="hand" value="scissors">
+    </span>
+    <div>
+      <button type="submit" onclick="return startGame('human');">Play human against computer</button>
+    </div>
+    <div>
+      <button type="submit" onclick="return startGame('computer');">Play computer against computer</button>
+    </div>
+  </form>
+  <div id="result"></div>
+
+</body>
+</html>

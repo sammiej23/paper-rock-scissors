@@ -1,0 +1,14 @@
+html, body {
+  font-family: sans-serif;
+}
+button {
+  background-color: blue;
+  color: white;
+  font: bold;
+  font-size: 1.2em;
+  border-style: outset;
+  border-color: #0066A2;
+  height: 30px;
+  width: 400px;
+  margin: 10px 0;
+}
