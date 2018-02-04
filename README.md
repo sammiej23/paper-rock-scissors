@@ -3,7 +3,7 @@
 Focus is on simplicity.
 
 - I chose Jasmine as a test framework, and tests are run at the command line.
-- The UI is very simple, in keeping with the instructions for MVP.
+- The UI is very simple, narrowing the focus for MVP.
 - There is minimal CSS and I've used js 1.5. No transpilation from ES6 to ES5 is needed.
 - Being simple, it should work across many browsers. The target browser is Chrome.
 - More could be done to make it responsive across a range of devices.
